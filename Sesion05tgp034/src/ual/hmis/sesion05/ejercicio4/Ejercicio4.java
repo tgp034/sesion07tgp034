@@ -28,6 +28,4 @@ public class Ejercicio4 {
 			calificacion = "Error en la nota";
 		return calificacion;
 		}
-
-	
 }
