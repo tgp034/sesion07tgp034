@@ -3,8 +3,8 @@ package ual.hmis.sesion05.ejercicio4;
 import java.util.ArrayList;
 
 public class Ejercicio4 {
-	ArrayList<Float> notas;
-	ArrayList<String> calificaciones;
+	ArrayList<Float> notas = new ArrayList<Float>();
+	ArrayList<String> calificaciones = new ArrayList<String>();
 	
 	public void calculaCalificaciones(ArrayList<Float> notas) {
 		for(Float nota : notas) {
